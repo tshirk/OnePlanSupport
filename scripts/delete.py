@@ -2,9 +2,9 @@
 import os, glob
 
 try:
-    os.rmdir('../{folder-name}/out')
-    os.rmdir('../{folder-name}')
-    os.remove('../{folder-name}_-Upload_to_GitHub.zip')
+    os.rmdir('../779-OnePlan_Support-html5.zip/out')
+    os.rmdir('../779-OnePlan_Support-html5.zip')
+    os.remove('../779-OnePlan_Support-html5.zip_-Upload_to_GitHub.zip')
     print('Deleted unneeded sub-directories...')
     
 except:
