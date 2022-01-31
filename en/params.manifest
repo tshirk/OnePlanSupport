@@ -12,7 +12,7 @@
   <param name="custom.css.source" select=""/>
   <param name="portal.logo.filename" select="/var/www/ccms/usr/oneplan/xsl/custom/assets/layout-472/61803d5be495b.png"/>
   <param name="portal.background.filename" select="/var/www/ccms/usr/oneplan/xsl/custom/assets/layout-472/61803e9a5198b.jpg"/>
-  <param name="portal.background.filename.out" select="/paligo/tmp/oneplan/production-61f853a4697be5.61197075/779-OnePlan_Support-html5/out/css/image/portal-bg.jpg"/>
+  <param name="portal.background.filename.out" select="/paligo/tmp/oneplan/production-61f85719dbfb86.02748723/779-OnePlan_Support-html5/out/css/image/portal-bg.jpg"/>
   <param name="company.name" select="OnePlan"/>
   <param name="copyright.year" select="2021"/>
   <param name="copyright"> © 2021 OnePlan </param>
@@ -92,9 +92,9 @@
   <param name="slides.revealjs.theme.custom" select=""/>
   <param name="slides.revealjs.background.image.opacity" select="1"/>
   <param name="slides.revealjs.default.background.image" select=""/>
-  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/oneplan/production-61f853a4697be5.61197075/779-OnePlan_Support-html5/out/css/image/default_slide_background.png"/>
+  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/oneplan/production-61f85719dbfb86.02748723/779-OnePlan_Support-html5/out/css/image/default_slide_background.png"/>
   <param name="slides.revealjs.logo" select=""/>
-  <param name="slides.revealjs.logo.out" select="/paligo/tmp/oneplan/production-61f853a4697be5.61197075/779-OnePlan_Support-html5/out/css/image/logo-light.png"/>
+  <param name="slides.revealjs.logo.out" select="/paligo/tmp/oneplan/production-61f85719dbfb86.02748723/779-OnePlan_Support-html5/out/css/image/logo-light.png"/>
   <param name="slides.revealjs.logo.alt" select=""/>
-  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/oneplan/production-61f853a4697be5.61197075/779-OnePlan_Support-html5/out/css/image/logo-dark.png"/>
+  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/oneplan/production-61f85719dbfb86.02748723/779-OnePlan_Support-html5/out/css/image/logo-dark.png"/>
 </params>
