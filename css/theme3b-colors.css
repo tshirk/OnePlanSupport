@@ -11,3 +11,7 @@
 .portal-header-navbar.navbar .navbar-nav>li>a {
     color: #26a69a;
 }
+
+.portal-search-result .search-container {
+    background-color: #fff;
+}
