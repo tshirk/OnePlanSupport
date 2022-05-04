@@ -12,7 +12,7 @@
   <param name="custom.css.source" select=""/>
   <param name="portal.logo.filename" select="/var/www/ccms/usr/oneplan/xsl/custom/assets/layout-472/61803d5be495b.png"/>
   <param name="portal.background.filename" select="/var/www/ccms/usr/oneplan/xsl/custom/assets/layout-472/61803e9a5198b.jpg"/>
-  <param name="portal.background.filename.out" select="/paligo/tmp/oneplan/production-61fc0909dce583.65214272/779-OnePlan_Support-html5/out/css/image/portal-bg.jpg"/>
+  <param name="portal.background.filename.out" select="/paligo/tmp/oneplan/production-6272ccb12de8a4.31088604/779-OnePlan_Support-html5/out/css/image/portal-bg.jpg"/>
   <param name="company.name" select="OnePlan"/>
   <param name="copyright.year" select="2021"/>
   <param name="copyright"> © 2021 OnePlan </param>
@@ -59,6 +59,7 @@
   <param name="external.top.nav.links" select=""/>
   <param name="top.nav.section.depth" select="2"/>
   <param name="gentext.for.top.nav" select="0"/>
+  <param name="use.portal.category" select="1"/>
   <param name="version.dropdown.values" select=""/>
   <param name="enter.key.search.behaviour" select="select"/>
   <param name="versions.file" select=""/>
@@ -78,6 +79,7 @@
   <param name="drift.id" select=""/>
   <param name="pendo.agent" select=""/>
   <param name="highlight" select="1"/>
+  <universalaccess.text.include-wcag-css name="universalaccess.text.include-wcag-css" select="0"/>
   <param name="slides.revealjs.animate.listitems" select="1"/>
   <param name="slides.revealjs.transition" select="slide"/>
   <param name="slides.revealjs.show.progress" select="1"/>
@@ -92,10 +94,10 @@
   <param name="slides.revealjs.theme.custom" select=""/>
   <param name="slides.revealjs.background.image.opacity" select="1"/>
   <param name="slides.revealjs.default.background.image" select=""/>
-  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/oneplan/production-61fc0909dce583.65214272/779-OnePlan_Support-html5/out/css/image/default_slide_background.png"/>
+  <param name="slides.revealjs.default.background.image.out" select="/paligo/tmp/oneplan/production-6272ccb12de8a4.31088604/779-OnePlan_Support-html5/out/css/image/default_slide_background.png"/>
   <param name="slides.revealjs.logo" select=""/>
-  <param name="slides.revealjs.logo.out" select="/paligo/tmp/oneplan/production-61fc0909dce583.65214272/779-OnePlan_Support-html5/out/css/image/logo-light.png"/>
+  <param name="slides.revealjs.logo.out" select="/paligo/tmp/oneplan/production-6272ccb12de8a4.31088604/779-OnePlan_Support-html5/out/css/image/logo-light.png"/>
   <param name="slides.revealjs.logo.alt" select=""/>
-  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/oneplan/production-61fc0909dce583.65214272/779-OnePlan_Support-html5/out/css/image/logo-dark.png"/>
+  <param name="slides.revealjs.logo.alt.out" select="/paligo/tmp/oneplan/production-6272ccb12de8a4.31088604/779-OnePlan_Support-html5/out/css/image/logo-dark.png"/>
   <param name="delayed.algolia.search" select="0"/>
 </params>
