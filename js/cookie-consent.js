@@ -28,18 +28,36 @@ function initCookieConsent() {
         "content": {
             "href": privacypolicy
         },
-        onInitialise: function (status) {
-            var type = this.options.type;
-            var didConsent = this.hasConsented();
-            if (type == 'opt-out' && ! didConsent) {
-                // disable cookies
+        
+        onPopupOpen: function() {
+            // Clear all cookies if 'opt-out' and user has not yet accepted
+            if (this.type == 'opt-out' && !this.hasConsented()) {
+                
                 var cookies = get_cookies_array();
+
+                // Erase all cookies except the one holding consent
                 for (var name in cookies) {
-                    /*Disable all cookies except the necessary one holding the user's choice of consent*/
                     if (! name.match('^cookieconsent_status')) {
                         eraseCookie(name);
                     }
                 }
+            }
+        },
+        
+        // Custom property to avoid multipe event triggers
+        "eventTriggered": false,
+
+        onStatusChange: function (status) {
+            // Event should already be triggered if
+            // user has select 'info' as their consent type
+            if (this.type === 'info') {
+                return;
+            }
+
+            if (status && status === 'dismiss' && !this.eventTriggered) {
+                // Trigger consent event (analytics scripts, etc.)
+                $(document).trigger('cookies.consented');
+                this.eventTriggered = true;
             }
         }
     })

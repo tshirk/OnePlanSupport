@@ -55,6 +55,12 @@ $(document).ready(function () {
         addGlobalVersions(versionsfile);
     }
     mapVersionPage();
+
+    // Manually trigger consent event if no policy,
+    // or policy is 'info'
+    if (!consenttype || consenttype == 'info') {
+        $(document).trigger('cookies.consented');
+    }
 });
 
 function addGlobalVersions(versionsfile) {
